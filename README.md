@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# US-Profile 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a Login input page which accepts details from the form and showcase it inside the table form.
 
-## Available Scripts
+##Tech Stacks
+1. HTML:
+Used for structuring the web pages and creating user interfaces.
 
-In the project directory, you can run:
+2. CSS:
+Utilized for styling the user interface, providing a visually appealing experience.
 
-### `npm start`
+3. JavaScript:
+Used for dynamic behavior, interactivity, and handling user actions.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. React.js:
+A JavaScript library for building user interfaces, providing a smooth and efficient user experience.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+5.crypto-js:
+CryptoJS is a growing collection of standard and secure cryptographic algorithms implemented in JavaScript using best practices and patterns.Here i have used this framework in a way to savethe data in encrypted way.
+ 
+6.react-beautiful-dnd:
+To make the list reorderable with drag and drop functionality, I have used a library like react-beautiful-dnd. Now, the list is reorderable using drag and drop. The rows can be dragged to rearrange their order.
 
-### `npm test`
+7.file-saver:
+To download a CSV file with password protection in a React application, you can use a library like papaparse for CSV conversion and FileSaver for downloading the file. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8.Tailwind CSS:
+I have used this framework for styling, helped me to eject from the complexity of abstracting styles away
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+As per the bonus counter i have not used any library to generate a 16 digit unique code instead i have used javascript by wsing Math.random() from the array to create unique hex code.
