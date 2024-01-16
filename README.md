@@ -27,4 +27,4 @@ To download a CSV file with password protection in a React application, you can 
 ## 8.Tailwind CSS:
 I have used this framework for styling, helped me to eject from the complexity of abstracting styles away
 
-### As per the bonus counter i have not used any library to generate a 16 digit unique code instead i have used javascript by wsing Math.random() from the array to create unique hex code.
+### As per the bonus counter i have not used any library to generate a 16 digit unique code instead i have used javascript by using Math.random() from the array to create unique hex code.
