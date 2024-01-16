@@ -1,6 +1,25 @@
 # US-Profile 
 
-This project is a Login input page which accepts details from the form and showcase it inside the table form.
+Welcome to the Unique Schools Joining Platform! This project is a web application that allows users to join a unique school community, manage user details, and interact with a draggable table.
+
+## Features
+
+1. **User Registration:**
+   - Users can register with their email, username, and a generated 16-digit hex code.
+
+2. **User Management:**
+   - Users can view, edit, and delete their details.
+   - User details are encrypted and stored securely in local storage.
+
+3. **Draggable Table:**
+   - Implemented using `react-beautiful-dnd` for a smooth and interactive user experience.
+   - Users can reorder rows by dragging them.
+
+4. **CSV Download:**
+   - Users can download their user details in CSV format.
+
+5. **Responsive Design:**
+   - The application is designed to be responsive across various screen sizes.
 
 ## Tech Stacks
 ## 1. HTML:
